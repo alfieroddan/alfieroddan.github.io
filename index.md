@@ -8,6 +8,7 @@ Useful links:
 - [Writing Maths](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 
 $x_{1} = 2$
+'x_{1} = 3'
 
 **The Cauchy-Schwarz Inequality**
 
