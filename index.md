@@ -1,6 +1,7 @@
 ---
 title: Welcome to my blog
 usemathjax: true
+layout: deafult 
 ---
 
 Useful links:
