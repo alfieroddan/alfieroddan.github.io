@@ -3,4 +3,8 @@ title: My Blog
 author: Alfie Roddan
 description: My blog...
 
+# Build settings
 markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed

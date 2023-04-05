@@ -2,7 +2,10 @@
 title: Welcome to my blog
 ---
 
-[Writing Maths](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
+Useful links:
+- [Using Jekyll](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/#configuring-your-jekyll-site)
+
+- [Writing Maths](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 
 $$x_{1} = 2$$
 
