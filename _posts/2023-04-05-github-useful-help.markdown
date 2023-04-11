@@ -1,9 +1,41 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2023-04-05 17:02:12 +0100
-categories: jekyll update
+title: Useful Notes for Github Pages
+author: Alfie Roddan
 ---
+
+# Start your own Jekyll / Github blog
+## Startup using:
+- [This startup jekyll](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/#how-to-set-up-github-pages)
+- [This example gitpage](https://github.com/ian-whitestone/ian-whitestone.github.io)
+
+Note I don't use the minima theme as I want to use MathJax. I simply copied the minima theme files from `bundle info --path minima`. Make sure to add the [SEO Plugin](seo-plug)!
+
+[seo-plugin]: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
+
+
+# MathJax
+To use mathjax add to the `_layouts/post.html`:
+
+```html
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+  </script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+```
+
+This will render all math like you would in latex or markdown (escape using `$`).
+
+Now  \\$x_{2}\\$ becomes $x_{2}$ with no extra effort!
+
+
+# From Jekyll
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
